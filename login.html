@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="login-container">
+        
+        <div class="profile-icon"></div>
+        <h2>Long In</h2>
+
+        <form id="form" onsubmit="event.preventDefault(); longin();">
+  
+        <input type="text" class="input-field" id="username" placeholder="Username">
+        <div id="emailError" style="color: red; font-size: 10px;"></div><br>
+
+        <input type="password" class="input-field" id="password" placeholder="Password">
+
+        <div class="remember">
+            <label><input type="checkbox"> Remember me</label>
+            <a href="#">Forgot password?</a>
+        </div>
+
+        <button class="login-btn" id="login">LOGIN</button>
+
+        <div class="signup-link">
+            Don't have an account? <a href="#">Sign Up</a>
+        </div>
+
+        <!-- <h2 id="WelcomeMassage"></h2> -->
+   <!-- <a href="index.html"></a> -->
+
+    </form>
+    
+    </div>
+   
+
+    
+    <script src="main2.js"></script>
+    <!-- <a href="index.html"></a> -->
+</body>
+</html>
